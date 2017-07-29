@@ -1,4 +1,82 @@
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
 header{
   display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+
+header .logo{
+  display: flex;
+  height: 50px;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+header nav{
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+}
+
+header nav a{
+  color: seashell;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+}
+
+.content .mission{
+  display: flex;
+  border: 1px solid white;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .mission .text{
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
   background-color: black;
+}
+
+.content .mission .text h2,h4{
+  margin: 10px 0;
+}
+
+.content .month{
+  border: 1px dashed white;
+  display: flex;
+  flex-direction: column;
+}
+
+.content .month .title{
+  border: 1px solid yellow;
+}
+
+.content .month .teas{
+  border: 1px solid green;
+  display: flex;
+}
+
+.content .month .teas h4{
+  border: 1px solid red;
+}
+
+.content .locations{
+  border: 1px solid white;
 }
