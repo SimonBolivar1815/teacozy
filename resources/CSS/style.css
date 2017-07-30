@@ -5,6 +5,7 @@ body{
   background-color: black;
   opacity: 0.9;
   width: 1200px;
+  margin: 0 auto;
 }
 
 header{
@@ -148,6 +149,7 @@ footer{
   align-items: center;
   justify-content: center;
   height: 200px;
+  margin-top: 20px;
 }
 
 .copyright{
